@@ -25,9 +25,11 @@ On Internet Explorer 7 or higher on Windows Vista or Windows 7, you must set the
 ![Set up IE protected mode](./docs/ie_protected_mode.png)
 
 ## Content
-`IEDriverServer` and `msedgedriver` are already setup in `test/resources`
+
 
 * `classicMode` execute the test in edge using msedgedriver, the classic way.
+
   ![Edge classic](./docs/edge.png)
 * `iemode` execute the test in edge with ie mode activated, using IEDriverServer.
+
   ![Edge IE mode](./docs/edge_iemode.png)
