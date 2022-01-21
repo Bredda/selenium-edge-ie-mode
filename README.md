@@ -12,9 +12,13 @@
 * IE Driver Server 4.0.0 or higher - for IE compability mode
 * (optionnal) MS Edge driver  - fore "pure" Edge tests
 
+Selenium deps are already delcared in pom.
+IEDriverServer and MS Edge Driver are automatically picked up from `test\resources`
+MSEdge binary path must be set for local installation on line #39
 
-
+**Warning**
 On Internet Explorer 7 or higher on Windows Vista or Windows 7, you must set the Protected Mode settings for each zone to be the same value. The value can be on or off, as long as it is the same for every zone. To set the Protected Mode settings you have to choose "Internet Options" from the "Tools" menu and then click on the Security tab. For each zone, there will be a check box at the bottom of the tab labeled Enable Protected Mode.
+
 ![Set up IE protected mode](./docs/ie_protected_mode.png)
 
 ## Content
