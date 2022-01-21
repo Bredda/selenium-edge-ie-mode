@@ -8,8 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.ie.InternetExplorerOptions;
-
-import static org.junit.Assert.*;
+import static org.assertj.core.api.Assertions.*;
 
 public class IeEdgeTest {
 
@@ -54,7 +53,7 @@ public class IeEdgeTest {
 
         String flashText = webDriver.findElement(By.id("flash")).getText().trim();
 
-        assertEquals( "You logged into a secure area! ×", flashText);
+        assertThat(flashText).contains("You logged into a secure area!");
 
     }
 
