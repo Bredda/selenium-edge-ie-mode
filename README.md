@@ -1,6 +1,6 @@
 # Selenium tests on Edge in IE mode
 
-##Docs
+## Docs
 
 [New testing tools to help prepare for IE retirement](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/new-testing-tools-to-help-prepare-for-ie-retirement/ba-p/3059947#:~:text=With%20IE11%20retirement%20fast%20approaching%2C%20Microsoft%20has%20collaborated,and%20apply%20them%20for%20testing%20in%20IE%20mode.)
 
